@@ -4,12 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
+    <link rel="stylesheet" href="/css/home/login.css">
     <script src = "/js/home/login.js" defer></script>
     <title>Document</title>
 </head>
 <body>
-    <input id = "id" type="text" placeholder = "ID"><br>
-    <input id = "psword" type="text" placeholder = "PW"><br>
-    <button>Login</button>
+    <div class="login-box">
+        <h2>Login</h2>
+        <form>
+          <div class="user-box">
+            <input id="id" type="text" name="" required="">
+            <label>ID</label>
+          </div>
+          <div class="user-box">
+            <input id="psword" type="password" name="" required="">
+            <label>Password</label>
+          </div>
+          <button type="submit">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            Login
+        </button>
+        <p class="message">Not registered? <a href="/register">Create an account</a></p>
+        </form>
+      </div>
 </body>
 </html>
+
+<!-- Copyright (c) 2023 by Soufiane Khalfaoui HaSsani (https://codepen.io/soufiane-khalfaoui-hassani/pen/LYpPWda) -->
